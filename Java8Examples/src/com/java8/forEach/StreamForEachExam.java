@@ -13,7 +13,9 @@ public class StreamForEachExam {
 		Consumer<Integer> action = System.out::println;
 		 
 		numberList.stream().filter(n -> n%2  == 0).forEach( action );
+		
 
+		
 	}
 
 }
